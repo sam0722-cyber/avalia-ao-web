@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+}
+
+header {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(12, 14, 16);
+    position: absolute;
+    left: 0;
+    top: 0;
+
+
+}
+
+img {
+    width: 100%;
+    
+}
+
+
+main {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(228, 233, 233);
+}
+
+.container-formulario1 {
+    width: 75%;
+    height: 50px;
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    color: rgb(45, 64, 80);
+
+}
+
+.container-formulario2 {
+    width: 85%;
+    height: 75px;
+    position: absolute;
+    left:10%;
+    top: 60%;
+    color: rgb(45, 64, 80);
+}
+
+
+
+
+.botao {
+    width: 80%;
+    height: 40px;
+    border: 5px;
+    background-color: rgb(9, 162, 22);
+    color: aliceblue;
+}
+
+.botao1 {
+    width: 80%;
+    height: 40px;
+    border: 5px;
+    background-color: rgb(9, 162, 22);
+    color: aliceblue;
+    }
+.email {
+    width: 30%;
+    height: 30px;
+    border: 1px;
+}
+
+.passoword {
+    width: 30%;
+    height: 30px;
+    border: 1px;
+
+}
+
+
+
+.email-cadastro {
+    width: 30%;
+    height: 30px;
+    border: 1px;
+
+}
+
+.passoword-cadastro {
+    width: 30%;
+    height: 30px;
+    border: 1px;
+
+}
+
+.repetir-senha {
+    width: 30%;
+    height: 30px;
+    border: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input.input-salvar {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    text-align: center; 
+}
+
+.input-1 {
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #a69cac;
+    color: white;
+}
+
+p, span {
+    color: #e76f51;
+    font-family: Poppins, sans-serif;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(203, 18, 18);
+    font-family: Poppins, sans-serif;
+    font-size: 1.4rem;
+}
+
+a:hover {
+    color: #a69cac;
+}
+
+.input-3 {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+}
+
+.input-2 {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #a69cac;
+    color: white;
+}
+
+.section-2 {
+    position: absolute;
+    width: 1200px;
+    height: 200px;
+    left: calc(50vw - 600px);
+   
+}
+
+section > h1 {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+#tarefa {
+    width: 500px;
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 10px;
+    border: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 1.5rem;
+}
+
+#detalhamento {
+    width: 510px;
+    text-align: left;
+    margin-left: 15px;
+    padding-left: 15px;
+    border: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 1.5rem;
+}
+
+#salvar {
+    width: 150px;
+    text-align: center;
+    margin-left: 15px;
+    background-color: #474973;
+    color: white;
+    border: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 1.3rem;
+}
+
+.section-3 {
+    position: absolute;
+    width: 1200px;
+    height: 350px;
+    
+    top: 200px;
+    left: calc(50vw - 600px);
+}
+
+.titulo-1 {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 1.6rem;
+    margin: 50px;
+    width: 30px;
+}
+
+.titulo-2, .titulo-3 {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 1.6rem;
+    margin: 50px;
+    width: 500px;
+}
+
+.titulo-4 {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 1.6rem;
+    margin: 50px;
+    width: 200px;
+}
+
+table {
+    font-family: Poppins, sans-serif;
+    font-size: 1.4rem;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+ #apagar {
+    color: #dddddd !important;
+    background-color: #e63946 !important;
+    border: 0 !important;
+    border-radius: 5px !important;
+    padding: 8px !important;
+    width: 90px !important;
+ }
+
+ #editar {
+    color: #dddddd !important;
+    background-color: #2a9d8f !important;
+    border: 0 !important;
+    border-radius: 5px !important;
+    padding: 8px !important;
+    width: 80px !important;
+    margin-left: 5px !important;
+ }
+
+ .div1 {
+    position: absolute;
+    width: 1200px;
+    height: 200px;
+ }
+
+ .botao-sair {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+    background-color: #474973;
+    color: white;
+    border: 0;
+    position: absolute;
+    right: 5px;
+    bottom: 40px;
+    font-family: Poppins, sans-serif;
+    font-size: 1.3rem;
+}
